@@ -23,7 +23,40 @@ Task 2: Evaluation and Fine-tuning of Retrieval Models - 3
 # Customizing-embeddings
 we provide a method for customizing your embeddings using training data. The idea of the method is to train a custom matrix to multiply embedding vectors by in order to get new customized embeddings. With good training data, this custom matrix will help emphasize the features relevant to your training labels. You can equivalently consider the matrix multiplication as (a) a modification of the embeddings or (b) a modification of the distance function used to measure the distances between embeddings. 
 
-https://private-user-images.githubusercontent.com/101485360/280610496-8550b94c-8349-4731-94ec-85a514e3c983.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE2NjE5MjYsIm5iZiI6MTcwMTY2MTYyNiwicGF0aCI6Ii8xMDE0ODUzNjAvMjgwNjEwNDk2LTg1NTBiOTRjLTgzNDktNDczMS05NGVjLTg1YTUxNGUzYzk4My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNFQwMzQ3MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iOGY1MmJjOWVmYjk5NDQwYjc3YmQwMWM5MmM0YzM3NTg2NmRhYWI0YTk2MjIwZjgwMjBlYTA0YzZlNzUxNTNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.z2HzbClEJqRzaJmT3u36oMiACe0szfdeLVZ1dNY0vHI![image](https://github.com/ruiqiizhou/Application-of-Customizing-embeddings-and-BM25/assets/101485360/72b3444c-4ef6-4766-88ab-a810909a6c0e)
+<img width="714" alt="280610496-8550b94c-8349-4731-94ec-85a514e3c983" src="https://github.com/ruiqiizhou/Application-of-Customizing-embeddings-and-BM25/assets/101485360/0d5209f2-128a-4c45-acf4-055506860223">
 
+# Why Customizing embeddings
+
+### 1. **Targeted Semantic Understanding**
+- **Domain-Specific Semantic Capture**: Standard word embedding models may not effectively capture the subtle semantic nuances specific to ESG or SASB topics. Custom embeddings can more accurately reflect the linguistic characteristics of these fields, thereby improving the accuracy of analysis.
+- **Better Context Capture**: The context in news reporting may differ from that in general corpora. Custom embeddings can adjust according to the specific context of news content, providing deeper semantic understanding.
+
+### 2. **Enhanced Relevance Matching**
+- **Increased Matching Accuracy**: When matching news content with SASB topics, custom embeddings can consider industry terminologies, professional vocabularies, and specific topic language usage, aiding in more accurate matching.
+- **Flexible Feature Representation**: Custom embeddings can be flexibly adjusted according to project needs, such as by including or emphasizing specific types of linguistic features to optimize the matching between news and topics.
+
+### 3. **Improved Model Generalization**
+- **Strong Adaptability**: As news topics and discussions evolve, custom embeddings can be updated with the latest datasets to maintain their sensitivity and adaptability to current discussions.
+- **Future-Oriented Model Updates**: As ESG and SASB topics develop, custom embeddings can be continuously fine-tuned and optimized to adapt to changes in industry trends.
+
+### 4. **Enhanced Model Performance**
+- **Noise Reduction**: Custom embeddings can reduce the impact of language features irrelevant to the project goals, helping to decrease noise and enhance model performance.
+- **Optimized Computational Efficiency**: Compared to some complex deep learning models, embeddings optimized for specific tasks might have advantages in computational efficiency.
+
+### 5. **Data-Driven Decision Support**
+- **Provision of In-depth Insights**: Custom embeddings can reveal complex relationships between news content and ESG topics, supporting more data-driven decision-making.
+- **Enhanced Interpretability of Results**: Compared to black-box models, custom embedding models might offer better interpretability in certain cases, which is crucial for understanding model outputs and conducting result analysis.
+
+# How we use Customizing-embeddings and BM25?
+https://colab.research.google.com/drive/1FtiI7SAFvFJvIa2H72ZZFAst5feva-_K
+
+# Related resources from around the web
+https://github.com/openai/openai-cookbook/blob/main/articles/related_resources.md
+
+https://github.com/openai/openai-cookbook/blob/main/examples/Customizing_embeddings.ipynb
+
+https://news.ycombinator.com/item?id=34904793
+
+https://community.openai.com/t/customize-openai-embedding-model/224210
 
 
