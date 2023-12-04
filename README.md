@@ -55,21 +55,30 @@ https://colab.research.google.com/drive/1FtiI7SAFvFJvIa2H72ZZFAst5feva-_K
 ### Impact of the Project
 
 Enhanced ESG Analysis: By accurately matching news content with SASB topics, your project plays a crucial role in deepening the understanding of how current events and corporate activities relate to ESG (Environmental, Social, and Governance) factors. This is increasingly important for investors, policymakers, and the public.
+
 Informed Decision-Making: For organizations and investors focused on sustainability and social responsibility, your tool offers valuable insights. It helps in identifying trends, risks, and opportunities related to ESG themes, aiding in more informed decision-making.
+
 Advancing NLP in Finance: The project pushes the boundaries of applying natural language processing (NLP) techniques in the financial sector, particularly in the rapidly evolving area of sustainable finance.
+
 Data-Driven Journalism and Research: For journalists and researchers, this tool can be a valuable asset in uncovering and understanding the connections between current news and broader ESG issues.
+
 Public Awareness and Education: By highlighting the relationship between current news and ESG themes, your project can also contribute to public awareness and education about sustainability and corporate responsibility.
 
-###Next Steps
+### Next Steps
 
 Refinement and Expansion of Data Sources: Expand the range of news sources and SASB topics to cover a more comprehensive spectrum of information. This can include integrating multilingual news sources for broader global coverage.
+
 Algorithm Enhancement: Continue to refine the custom embedding and BM25 algorithms based on user feedback and evolving data patterns. Implement machine learning techniques to improve accuracy and efficiency.
 User Interface Development: Develop a user-friendly interface for easier access and interaction with the tool, making it more accessible to a broader audience.
+
 Integration with Other ESG Data: Combine the tool's outputs with other ESG data sources for a more holistic view of a company's or topic's ESG performance.
+
 Collaboration and Partnerships: Partner with academic institutions, financial organizations, and sustainability-focused entities to enhance the tool's capabilities and reach.
+
 Machine Learning Model Deployment: Explore deploying machine learning models to automate the identification and classification of ESG-relevant news content.
+
 Feedback Loop and Continuous Improvement: Establish a feedback mechanism for users to contribute to the tool's improvement and accuracy, ensuring it remains relevant and effective.
-By taking these steps, the projec
+
 
 # Related resources from around the web
 https://github.com/openai/openai-cookbook/blob/main/articles/related_resources.md
