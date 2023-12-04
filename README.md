@@ -13,13 +13,15 @@ The goals of this project are to
 
    
 # 3.     Project Plan:
-Task 1: Annotation
+Task 1: 
+
 ·       Annotate more than 5,000+ articles related to Environmental, Social, and Governance (ESG) and SASB categories
 
 ·       Employ models like ChatGPT, Llama2 (or fine-tuned models such as Alpaca) to automatically label news articles and identify relevant entities 
 
-Task 2: Evaluation and Fine-tuning of Retrieval Models - 3 
+Task 2: 
 ·       Use Classical Information Retrieval methods (like BM25)
+
 
 
 # Customizing-embeddings
